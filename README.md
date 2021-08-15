@@ -1,4 +1,4 @@
-# minecraft-mac-dock-fix
+# minecraft-mac-window-fix
 Fixes some issues with Minecraft on macOS.  
 This project will fix the following Minecraft bugs on macOS:  
 [MCL-15163](https://bugs.mojang.com/browse/MCL-15163)  
