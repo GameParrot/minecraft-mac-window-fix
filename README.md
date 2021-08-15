@@ -9,3 +9,6 @@ This will also enable macOS Dark Mode support for the title bar and fix micropho
 
 # Installation:
 Clone this repo, and then run the install.sh file. It will tell you want the path you have to set your Java executable to.
+
+# Note:
+Doing this will make the game output in the launcher not work.
