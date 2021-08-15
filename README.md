@@ -8,4 +8,4 @@ This project will fix the following Minecraft bugs on macOS:
 This will also enable macOS Dark Mode support for the title bar and fix microphone permission issues with some mods (will ask if bash wants to use the microphone).
 
 # Installation:
-Clone this repo using git, and then run the install.sh file. It will tell you want the path you have to set your Java executable to.
+Clone this repo, and then run the install.sh file. It will tell you want the path you have to set your Java executable to.
