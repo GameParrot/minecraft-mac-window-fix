@@ -11,4 +11,4 @@ This will also enable macOS Dark Mode support for the title bar and fix micropho
 Clone this repo, and then run the install.sh file. It will tell you want the path you have to set your Java executable to.
 
 # Note:
-Doing this will make the game output in the launcher not work. If you disable "Open output log when Minecraft: Java Edition starts" in the launcher settings, then you will not notice this at all.
+Doing this will make the game output in the launcher not work. If "Open output log when Minecraft: Java Edition starts" is disabled in the launcher settings, then you will not notice this at all.
