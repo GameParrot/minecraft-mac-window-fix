@@ -2,7 +2,7 @@
 Fixes some issues with Minecraft on macOS.  
 This project will fix the following Minecraft bugs on macOS:  
 [MCL-15163](https://bugs.mojang.com/browse/MCL-15163)  
-[MC-145948](https://bugs.mojang.com/browse/MC-145948)
+[MC-145948](https://bugs.mojang.com/browse/MC-145948)  
 [MC-134546](https://bugs.mojang.com/browse/MC-134546)
 
 # Other fixes:
