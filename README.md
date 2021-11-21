@@ -3,6 +3,7 @@ Fixes some issues with Minecraft on macOS.
 This project will fix the following Minecraft bugs on macOS:  
 [MCL-15163](https://bugs.mojang.com/browse/MCL-15163)  
 [MC-145948](https://bugs.mojang.com/browse/MC-145948)
+[MC-134546](https://bugs.mojang.com/browse/MC-134546)
 
 # Other fixes:
 This will also enable macOS Dark Mode support for the title bar and fix microphone permission issues with some mods (will ask if bash wants to use the microphone).
@@ -12,3 +13,5 @@ I would recommend using the installer from the releases, but you can also clone 
 
 # Note:
 Doing this will make the game output in the launcher not work. If "Open output log when Minecraft: Java Edition starts" is disabled in the launcher settings, then you will not notice this at all.
+# Modified GLFW
+The libglfw.dylib file is a mofified version of GLFW to fix [MC-134546](https://bugs.mojang.com/browse/MC-134546). The source of cocoa_window.m, the only file I mofified is at https://gist.github.com/GameParrot/f3ab04daec20c7ca20672f2fc35349ba
