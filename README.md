@@ -5,7 +5,8 @@ This project will fix the following Minecraft bugs on macOS:
 [MC-145948](https://bugs.mojang.com/browse/MC-145948)  
 [MC-134546](https://bugs.mojang.com/browse/MC-134546)  
 [MC-121772](https://bugs.mojang.com/browse/MC-121772)  
-[MC-122296](https://bugs.mojang.com/browse/MC-122296)
+[MC-122296](https://bugs.mojang.com/browse/MC-122296)  
+[MCL-14705](https://bugs.mojang.com/browse/MCL-14705)
 
 # Other fixes:
 This will also enable macOS Dark Mode support for the title bar and fix microphone permission issues with some mods (will ask if bash wants to use the microphone).
