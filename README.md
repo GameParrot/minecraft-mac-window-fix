@@ -19,7 +19,7 @@ I would recommend using the installer from the releases, but you can also clone 
 Doing this will make the game output in the launcher not work. If "Open output log when Minecraft: Java Edition starts" is disabled in the launcher settings, then you will not notice this at all.
 
 # Modified GLFW
-The libglfw.dylib file is a modified version of GLFW to fix some of the bugs. The source of cocoa_window.m, the only file I mofified is at https://gist.github.com/GameParrot/9965437f5d86ec45ff5ee084cfb1fd86
+The libglfw.dylib file is a modified version of GLFW to fix some of the bugs. The source of cocoa_window.m, the only file I modified is at https://gist.github.com/GameParrot/9965437f5d86ec45ff5ee084cfb1fd86
 
 # OpenAL
 The libopenal.dylib is a version of OpenAL compiled from [openal-soft](https://github.com/kcat/openal-soft) without modification. This is used to enable custom audio devices on Minecraft 1.18 and newer.
