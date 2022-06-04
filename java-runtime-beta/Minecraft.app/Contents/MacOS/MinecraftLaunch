@@ -1,5 +1,4 @@
 #!/bin/bash
 cd "$1"
 curdir=$(dirname "$0")
-exec "$curdir"/Minecraft -Dapple.awt.application.appearance=system "${@: 2}"
--NSRequiresAquaSystemAppearance False
+exec "$curdir"/Minecraft -Dapple.awt.application.appearance=system "${@: 2}" -NSRequiresAquaSystemAppearance False

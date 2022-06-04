@@ -1,12 +1,13 @@
 #!/bin/bash
 if [[ $@ == *"-cp"* ]] ; then
 curdir=$(dirname "$0")
-lwjgldir="$TMPDIR"/lwjgl"$USER"/3.3.1-build-7
-mkdir -p "$lwjgldir"
-rm ~/Library/Application\ Support/minecraft/libraries/org/lwjgl/lwjgl-glfw/*/*natives*
-rm ~/Library/Application\ Support/minecraft/libraries/org/lwjgl/lwjgl-openal/*/*natives*
-cp "$curdir"/../libglfw.dylib "$lwjgldir"/libglfw.dylib
-cp "$curdir"/../libglfw.dylib "$lwjgldir"/libglfw_async.dylib
-cp "$curdir"/../libopenal.dylib "$lwjgldir"/libopenal.dylib
+for i in "$@" ; do
+case "$i" in
+-Djava.library.path=*)
+LIBRARYPATH="${i#*=}"
+esac
+done
+cp "$curdir"/../libglfw.dylib "$LIBRARYPATH"/libglfw.dylib
+cp "$curdir"/../libopenal.dylib "$LIBRARYPATH"/libopenal.dylib
 exec open -n -W "$curdir"/Minecraft.app --args "$PWD" "$@"
 fi
