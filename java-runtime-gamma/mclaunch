@@ -3,7 +3,7 @@ if [[ $@ == *"-cp"* ]] ; then
 curdir=$(dirname "$0")
 lwjgldir="$TMPDIR"/lwjgl"$USER"/3.3.1-build-7
 mkdir -p "$lwjgldir"
-ln -s ~/Application\ Support/minecraft/runtime/java-runtime-gamma/mac-os-arm64 ~/Application\ Support/minecraft/runtime/java-runtime-gamma/mac-os
+ln -s ~/Library/Application\ Support/minecraft/runtime/java-runtime-gamma/mac-os-arm64 ~/Library/Application\ Support/minecraft/runtime/java-runtime-gamma/mac-os
 rm ~/Library/Application\ Support/minecraft/libraries/org/lwjgl/lwjgl-glfw/*/*natives*
 rm ~/Library/Application\ Support/minecraft/libraries/org/lwjgl/lwjgl-openal/*/*natives*
 cp "$curdir"/../libglfw.dylib "$lwjgldir"/libglfw.dylib
